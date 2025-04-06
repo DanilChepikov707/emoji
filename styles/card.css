@@ -1,0 +1,58 @@
+.cards {
+  max-width: 986px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 79px;
+  gap: 19px;
+
+  border-bottom: 1px solid #ced4da;
+  padding-bottom: 48px;
+}
+
+.card {
+  width: 316px;
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  padding: 24px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.card__emoji {
+  color: var(--Body-Text-Base-Color, #68717a);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  margin-top: 18px;
+
+  text-decoration: underline;
+  text-decoration-style: solid;
+
+  text-align: center;
+}
+
+.card__keywords {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: center;
+  margin-top: 12px;
+
+  color: #3f444a;
+}
+
+.footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #6c757d;
+  text-align: center;
+  margin-top: 13px;
+}

@@ -1,0 +1,55 @@
+/* порядок записи стилей
+1. позиционирование (top. position...)
+2. Свойства блока (display, margin...)
+3. свойства высоты и ширины 
+4. свойства шрифтов (font-size, family ...)
+5. Свойств текста (text-align, transform...)
+6. Цвета (color, background-color...)
+7. Все остальное */
+
+.header {
+  position: relative;
+  padding: 68px 0;
+  background: linear-gradient(92.33deg, #087990 0.12%, #055160 100%);
+  color: #cff4fc;
+}
+
+.header_title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.header_subtitle {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 36px;
+  margin-top: 4px;
+  text-align: center;
+}
+
+.header_input {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+
+  padding: 22px 32px;
+  display: block;
+  width: 820px;
+
+  border: 1px solid #ced4da;
+}
+
+.header_input::placeholder {
+  color: #abb5be;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 21px;
+}
+
+.header_input:focus {
+  outline: none;
+}
